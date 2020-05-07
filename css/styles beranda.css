@@ -1,0 +1,45 @@
+@font-face {
+        font-family: coolvetica;
+        src: url(coolvetica.ttf);
+}
+@font-face {
+        font-family: point;
+        src: url(sunflower.ttf);
+}
+body {
+	background-color: #1b1b2f;
+	}
+hr{
+	color: #30475e;
+	border-top-style: dotted;
+	border-bottom-style: none;
+	border-width: 3px;
+	width: 50%;
+	}
+table, th, td {
+  	border-collapse: collapse;
+	}
+th, td {
+  	padding:8px;
+  	color: white;
+	}
+td{
+	font-family: ARIAL;
+}
+h2{
+	color: #035aa6;
+	font-family: 'point';
+	}
+/*************************Class*************************/
+.Name{
+	color: cyan;
+	font-family: 'coolvetica';
+	font-variant: inherit;
+}
+.Contact:hover{
+	color: white;
+}
+/*************************ID*************************/
+#Foto:hover{
+	background-color: #6886c5;
+}

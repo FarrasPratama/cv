@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+	<style>
+		table, th, td {
+  			border-collapse: collapse;
+			}
+		th, td {
+  			padding:5px;   
+			}
+	</style>
+	<img src="images/Logo Filkom.png">
+</head>
+<body>
+	<h2>My Contacts</h2>
+	<ul>
+		<li><font size="4">Pratama007fr@Gmail.com</font></li>
+		<li><font size="4">(+62) 081234868443</font></li>
+	</ul>
+	<hr>
+	<h2>Contact Form Data</h2>
+	<form action="mailto:Pratama007fr@Gmail.com" method="post" enctype="text/plain">
+		<table>
+			<tbody>
+				<tr>
+					<td><label>Nama Lengkap</label></td>
+					<td><input type="text" name="Nama"></td>
+				</tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="email" name="Email"></td>
+				</tr>
+				<tr>
+					<td><label>No. Telepon</label></td>
+					<td><input type="number" name="Nomor"></td>
+				</tr>
+				<tr>
+					<td><label>Pesan</label></td>
+					<td><textarea name="Pesan"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>Drop File (jika perlu)</label></td>
+					<td><input type="file" name="File"></td>
+				</tr>
+			</tbody>
+		</table>
+		<input type="submit" name="Save" value="Submit">
+	</form>
+</body>
+</html>
