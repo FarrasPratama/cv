@@ -1,178 +1,248 @@
-th{
-  color: cyan;
-}
 
 body {
-  color: #40514E;
-  margin: 0;
+  font-family: "Montserrat";
   text-align: center;
-  font-family: 'Karma', serif;
-  background-color: black;
 }
 
-h1 {
-  color: #66BFBF;
-  font-size: 72px;
-  margin: 50px auto 0 auto;
-  font-family: 'Rock Salt', handwriting;
-}
-
-h2 {
-  color: #66BFBF;
-  font-family: 'Pattaya', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-
-h3 {
-  color: #11999E;
-  font-family: 'Pattaya', sans-serif;
-  font-size: 30px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
 p {
-  line-height: 2;
+  color: #8f8f8f;
 }
 
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
-a{
-  color: #11999E;
-  font-family: 'Karma', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
+.big-heading2 {
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
-a:hover {
-  color: #EAF6F6;
+.section-heading {
+  font-family: "Comfortaa";
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.Hi{
-  color: #66BFBF;
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #649d66;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Lobster";
+  font-size: 4rem;
+  font-weight: medium;
+}
+
+.navbar-brand-2 {
+  font-family: "Lobster";
+  font-size: 2rem;
+  font-weight: medium;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #709fb0;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 120%;
   position: absolute;
-  top: 50px;
-  font-size: 40px;
-  font-family: 'Rock Salt', handwriting;
+  left: 10%;
 }
 
-.icon-img{
-  height: 30px;
-  width: 30px;
-}
+/* Features Section */
 
-.icon{
-  height: 90%;
-  width: 60%;
-}
-
-.top-layout {
-  background-color: #222831;
+#features {
   position: relative;
-  padding-top: 100px;
 }
 
-.middle-layout {
-  background-color: #f6f578;
+.feature-title {
+  font-size: 1.5rem;
+  font-family: Roboto;
 }
 
-.bottom-layout {
-  background-color: #721b65;
-  padding: 50px 0 20px;
+.feature-box {
+  padding: 4.5%;
 }
 
-.skill-row-left {
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #bc658d;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: Poppins;
+}
+
+.testimonial-text3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: Poppins;
+}
+
+.testimonial-text2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #f5a7a7;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  color: #b5076b;
+  text-align: center;
+  font-family: Bree Serif;
+  font-size: 3rem;
+  padding-top: 3%;
+  font-weight: medium;
+}
+
+.press-logo-p{
+  color: #b5076b;
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 2rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.skill-row-left-title {
   width: 75%;
   left: 100px;
   margin: 50px;
   text-align: left;
 }
 
+.skill-row-left {
+  width: 100%;
+  left: 100px;
+  margin: 50px;
+  text-align: left;
+}
+
 .skill-row-right {
-  width: 75%;
+  width: 100%;
   right: 100px;
-  margin: 50px 200px;
+  margin: 50px 0px;
   text-align: right;
 }
 
-.nick {
-  text-decoration: underline;
-  font-family: 'Libre Barcode 39', display;
-  font-size: 40px;
-  color: white;
+.sell-txt{
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
-.opportunity{
-  font-family: Covered By Your Grace, handwriting;
+.selling-txt{
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
-.intro {
-  width: 55%;
-  font-size: 20px;
-  margin: auto;
+.pricing-title{
+  font-family: "Arima Madurai";
 }
 
-.contact-txt {
-  width: 35%;
-  margin: 40px auto 60px;
-}
-
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.left-binary-img {
-  position: absolute;
-  left: 30px;
-  bottom: 150px;
-  height: 455px;
-  width: 400px;
-}
-
-.right-binary-img {
-  position: absolute;
-  right: 30px;
-  bottom: 150px;
-  height: 455px;
-  width: 400px;
-}
-
-.code-img, .vector-img {
-  width: 25%;
+.pancake-img, .pearl-img, .tea-img {
+  width: 30%;
   float: left;
   margin-right: 30px;
 }
 
-.coding-img, .kobe-img {
-  width: 25%;
+.cake-img, .coffee-img{
+  width: 30%;
+  right: 100px;
   float: right;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
-.kobe-img{
-  height: 250px;
-  width: 175px;
+.coffee-img{
+  width: 20%;
 }
+/* CTA Section */
 
-.design-txt, .sell-txt, .coding-txt, .hobby-txt{
-  font-size: 18px;
-}
 
-.intro-link{
-  font-size: 18px;
-}
-
-.profile-img{
-  height: 300px;
-  width: 300px;
-}
+/* Footer Section */
 
 .contact-link {
   background: #11cdd4;
@@ -198,5 +268,21 @@ a:hover {
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
